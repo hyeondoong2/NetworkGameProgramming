@@ -9,8 +9,6 @@ bool is_big_endian() {
 
 int main(int argc, char* argv[])
 {
-    uint32_t x = 0x01020304;
-
     if (is_big_endian()) {
         std::cout << "Big-endian" << '\n';
     }
