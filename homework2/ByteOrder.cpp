@@ -6,7 +6,6 @@ bool is_big_endian() {
     return (htonl(x) == x);
 }
 
-
 int main(int argc, char* argv[])
 {
     if (is_big_endian()) {
