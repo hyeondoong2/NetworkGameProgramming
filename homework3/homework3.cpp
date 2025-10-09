@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 
 	const char* DomainName = argv[1];
 	struct hostent* hostptr = gethostbyname(DomainName); 
-
+	
 	if (hostptr == NULL) {
 		err_display("gethostbyname()");
 		return false;
